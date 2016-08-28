@@ -15,12 +15,12 @@ while another == 'y' or another == 'Y':
         wholesale = float(input('Enter the correct' + \
                                 'wholesale cost;'))
 
-        # Calculate the retail price.
-        retail = wholesale * mark_up
+    # Calculate the retail price.
+    retail = wholesale * mark_up
 
-        # Display the retail price.
-        print('Retail price: $', format(retail, ',.2f'))
+    # Display the retail price.
+    print('Retail price: $', format(retail, ',.2f'))
 
-        # Do this again?
-        anthoer = input('Do you have another item? ' + \
+    # Do this again?
+    anthoer = input('Do you have another item? ' + \
                         '(Enter y for yes):')
